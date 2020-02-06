@@ -13,11 +13,21 @@ function nowServing(deliLine){
 }
 
 function currentLine(line){
-  let str = "The line is currently"
+  if (line.length > 0){
+    let str = "The line is currently: "
   for (let i = 0; i < line.length; i++){
-    
+    if(i === line.length - 1){ //no comma on the last one
+          str += `${i}. ${line[i]}`
+    }
+    else{
+          str += `${i}. ${line[i]},`
+    }
   }
-  return `The line is currently:`
+  return str
+  }
+  else{
+    return "The line is currently empty"
+  }
 }
 
 
