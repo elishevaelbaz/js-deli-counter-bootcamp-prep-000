@@ -7,10 +7,9 @@ function nowServing(deliLine){
   if(deliLine.length === 0){
     return "There is nobody waiting to be served"
   }
-  else{
-  return deliLine[i]
+  var temp = deliLine[i]
   deliLine.shift()
-  }
+  return temp
 }
 //     it('adds a person to the line', () => {
 //       expect(takeANumber(katzDeli, 'Ada')).toEqual("Welcome, Ada. You are number 1 in line.");
