@@ -12,19 +12,14 @@ function nowServing(deliLine){
   return `Currently serving ${temp}.`
 }
 
+function currentLine(line){
+  let str = "The line is currently"
+  for (let i = 0; i < line.length; i++){
+    
+  }
+  return `The line is currently:`
+}
 
-
-//   describe('nowServing', () => {
-//     it('returns the line is empty when no one is on line', () => {
-//       expect(nowServing([])).toEqual("There is nobody waiting to be served!");
-//     });
-
-//     it('returns an announcement about the person it is serving, and shifts the line', () => {
-//       const deliLine = ["Steven", "Blake", "Avi"]
-//       expect(nowServing(deliLine)).toEqual("Currently serving Steven.");
-//       expect(deliLine).toEqual(["Blake", "Avi"]);
-//     });
-//   });
 
 //   describe('currentLine(line)', () => {
 //     it('returns "The line is currently empty." if no one is in line', () => {
