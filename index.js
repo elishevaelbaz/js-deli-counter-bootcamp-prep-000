@@ -20,7 +20,7 @@ function currentLine(line){
           str += `${i}. ${line[i]}`
     }
     else{
-          str += `${i}. ${line[i]},`
+          str += `${i}. ${line[i]}, `
     }
   }
   return str
