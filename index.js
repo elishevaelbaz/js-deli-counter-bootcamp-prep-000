@@ -17,10 +17,10 @@ function currentLine(line){
     let str = "The line is currently: "
   for (let i = 0; i < line.length; i++){
     if(i === line.length - 1){ //no comma on the last one
-          str += `${i}. ${line[i]}`
+          str += `${i+1}. ${line[i]}`
     }
     else{
-          str += `${i}. ${line[i]}, `
+          str += `${i+1}. ${line[i]}, `
     }
   }
   return str
