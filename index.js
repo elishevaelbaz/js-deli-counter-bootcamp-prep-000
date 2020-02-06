@@ -1,5 +1,5 @@
 function takeANumber(line, name){
-  return 
+  return `Welcome, ${name}. You are number ${line.length + 1} in line.`
 }
     it('adds a person to the line', () => {
       expect(takeANumber(katzDeli, 'Ada')).toEqual("Welcome, Ada. You are number 1 in line.");
