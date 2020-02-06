@@ -1,6 +1,13 @@
 function takeANumber(line, name){
   return `Welcome, ${name}. You are number ${line.length + 1} in line.`
 }
+
+function nowServing(deliLine){
+  if(deliLine.length === 0){
+    return "There is nobody waiting to be served"
+  }
+  return deliLine[i]
+}
     it('adds a person to the line', () => {
       expect(takeANumber(katzDeli, 'Ada')).toEqual("Welcome, Ada. You are number 1 in line.");
       expect(katzDeli).toEqual(['Ada']);
