@@ -1,5 +1,5 @@
 function takeANumber(katzDeliLine, name){
-  return `Welcome, ${name}. You are number ${line.length + 1} in line.`
+  return `Welcome, ${name}. You are number ${katzDeliine.length + 1} in line.`
 }
 
 function nowServing(deliLine){
