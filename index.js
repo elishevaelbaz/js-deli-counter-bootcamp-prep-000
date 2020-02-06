@@ -9,7 +9,7 @@ function nowServing(deliLine){
   }
   var temp = deliLine[0]
   deliLine.shift()
-  return `Currently serving ${temp}`
+  return `Currently serving ${temp}.`
 }
 
 
